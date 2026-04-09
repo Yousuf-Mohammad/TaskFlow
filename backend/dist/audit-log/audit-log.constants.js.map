@@ -1,0 +1,1 @@
+{"version":3,"file":"audit-log.constants.js","sourceRoot":"","sources":["../../src/audit-log/audit-log.constants.ts"],"names":[],"mappings":";;;AAAa,QAAA,YAAY,GAAG;IAC1B,YAAY,EAAE,cAAc;IAC5B,YAAY,EAAE,cAAc;IAC5B,YAAY,EAAE,cAAc;IAC5B,cAAc,EAAE,gBAAgB;IAChC,kBAAkB,EAAE,oBAAoB;CAChC,CAAC"}
