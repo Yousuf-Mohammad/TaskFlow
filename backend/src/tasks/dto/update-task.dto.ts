@@ -1,4 +1,4 @@
-import { IsEnum, IsOptional, IsString, IsUUID } from 'class-validator';
+import { IsEnum, IsOptional, IsString } from 'class-validator';
 import { TaskStatus } from '../../database/task.entity';
 
 export class UpdateTaskDto {
@@ -14,7 +14,7 @@ export class UpdateTaskDto {
   @IsOptional()
   status?: TaskStatus;
 
-  @IsUUID()
+  @IsString()
   @IsOptional()
   assignedUserId?: string;
 }

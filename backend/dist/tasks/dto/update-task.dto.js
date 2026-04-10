@@ -35,7 +35,7 @@ __decorate([
     __metadata("design:type", String)
 ], UpdateTaskDto.prototype, "status", void 0);
 __decorate([
-    (0, class_validator_1.IsUUID)(),
+    (0, class_validator_1.IsString)(),
     (0, class_validator_1.IsOptional)(),
     __metadata("design:type", String)
 ], UpdateTaskDto.prototype, "assignedUserId", void 0);
